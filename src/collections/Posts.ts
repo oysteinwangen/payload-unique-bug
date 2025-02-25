@@ -14,7 +14,7 @@ export const Posts: CollectionConfig = {
     {
       name: 'slug',
       type: 'text',
-      unique: true,
+      //unique: true,
       index: true,
       required: true,
     },
